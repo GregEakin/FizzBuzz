@@ -23,3 +23,11 @@ class TestSum(unittest.TestCase):
     def test_fifteen(self):
         number = print_num(15)
         self.assertEqual("FizzBuzz", number)
+
+    def test_sixteen(self):
+        number = print_num(16)
+        self.assertEqual("16", number)
+
+    def test_first_fifty(self):
+        for i in range(1, 51):
+            print(f'{i:2}    { print_num(i)}')
