@@ -20,7 +20,7 @@ class FizzBuzz:
         return "FizzBuzz"
 
 
-def print_num(number):
+def print_fizz_buzz(number):
     lst = [FizzBuzz, Number, Number, Fizz, Number, Buzz, Fizz, Number, Number, Fizz, Buzz, Number, Fizz, Number, Number]
     index = number % 15
     return lst[index]().print(number)
